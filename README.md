@@ -18,6 +18,7 @@ End-to-End Supply Chain Analytics Using Python(EDA) and interactive Tableau Dash
 
  📁 Project Structure
 
+```text
 dataco-supplychain-analytics/
 ├── notebooks/
 │   └── dataco_supply_chain_analysis.ipynb   # Python EDA & Notebook Analysis
@@ -28,6 +29,7 @@ dataco-supplychain-analytics/
 │   └── dashboard3.png                        # Logistics Efficiency Screenshot
 ├── requirements.txt                          # Python Environment Dependencies
 └── README.md
+
 
 🔑 Key Findings
 | Metric | Value |
