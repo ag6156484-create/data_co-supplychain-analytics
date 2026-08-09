@@ -85,6 +85,8 @@ Canceled / Delivery Blocked: Represents ~3.57% of total order processing.
 Financial Impact of Delivery Delays:
 Identifies correlated profit losses from fulfillment penalties and chargebacks across delayed regional orders.
 
+<img width="1350" height="757" alt="image" src="https://github.com/user-attachments/assets/1e5577cf-626e-4dd8-8967-b4dcfdc48870" />
+
 3.logistics & Fulfillment Efficiency Dashboard
 Key Metrics Monitored:
 Average Delivery Days: Real-time shipping duration averages 3.0 days against scheduled timelines.
