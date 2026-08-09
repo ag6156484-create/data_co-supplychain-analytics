@@ -32,8 +32,8 @@ dataco-supplychain-analytics/
 
 🔗 Project Links
 
- 📊 *Tableau Public Interactive Dashboard:* [View Live Dashboards]() (Aapka Tableau Public Link)
- 📓 *Jupyter Notebook (EDA & Modeling):* [View Python Notebook](notebooks/dataco_supply_chain_analysis.ipynb)
+ 📊 *Tableau Public Interactive Dashboard:* [View Live Dashboards](dashboards/supply chain and Logistic Management Tableau project.twbx) (Aapka Tableau Public Link)
+ 📓 *Jupyter Notebook (EDA & Modeling):* [View Python Notebook](https://colab.research.google.com/drive/1l7t-f3j1nLmvZ5P4uGey6zN4iK8ENRon?usp=sharing)
  💾 *Original Dataset (Kaggle):* [DataCo Supply Chain Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data)
  💼 *Developer Profile:* [LinkedIn Profile](https://linkedin.com/in/)
 
