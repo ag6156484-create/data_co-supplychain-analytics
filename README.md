@@ -30,6 +30,12 @@ dataco-supplychain-analytics/
 ├── requirements.txt                          # Python Environment Dependencies
 └── README.md
 
+🔗 Project Links
+
+ 📊 *Tableau Public Interactive Dashboard:* [View Live Dashboards]() (Aapka Tableau Public Link)
+ 📓 *Jupyter Notebook (EDA & Modeling):* [View Python Notebook](notebooks/dataco_supply_chain_analysis.ipynb)
+ 💾 *Original Dataset (Kaggle):* [DataCo Supply Chain Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data)
+ 💼 *Developer Profile:* [LinkedIn Profile](https://linkedin.com/in/)
 
 🔑 Key Findings
 | Metric | Value |
