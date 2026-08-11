@@ -55,9 +55,9 @@ dataco-supplychain-analytics/
  🔗 Project Links
 
 
-* Jupyter Notebook (EDA & Modeling):* [View Python Notebook](https://colab.research.google.com)
-* Original Dataset (Kaggle):* [DataCo Supply Chain Dataset](https://www.kaggle.com)
-* Developer Profile:* [LinkedIn Profile](https://linkedin.com)
+* Jupyter Notebook (EDA & Modeling): (https://colab.research.google.com/drive/1l7t-f3j1nLmvZ5P4uGey6zN4iK8ENRon?usp=sharing)
+* Original Dataset (Kaggle): (https://www.kaggle.co)
+* 
 
 
 
