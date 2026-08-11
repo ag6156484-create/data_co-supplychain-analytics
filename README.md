@@ -1,4 +1,4 @@
-# supplychain Analytics & Logistics Performance Dashboard
+# Supplychain Analytics & Logistics Performance Dashboard
 End-to-End Supply Chain Analytics Using Python(EDA) and interactive Tableau Dashboards to analyse sales ,logistics efficiency,and fraud risk
  🚚 DataCo Supply Chain & Logistics Analytics
 
@@ -19,21 +19,31 @@ End-to-End Supply Chain Analytics Using Python(EDA) and interactive Tableau Dash
 Executive Summary
  This repository contains end to end data processing, data hygiene checks, Exploratory data analysis (EDA) conducted on the DataCoSupply Chain dataset using Python (pandas, NumPy, matplotlib, and seaborn) with Tableau for executive level interactive dashboarding. The primary goal is to evaluate financial health, identify operational supply chain bottlenecks, assess delivery fulfillment delays, and mitigate global fraud risk exposure.
 
- KPI's & Calculated Fields:
+KPI's & Calculated Fields:
  
-  1.Total Fraud loss: if [Fraud Loss] = 1 then [Sales] else 0 end
+ 1.Total Fraud loss: if [Fraud Loss] = 1 then [Sales] else 0 end
+ 
  2.ON Time Delivery Rate: COUNTD (if [Delivery Status] ='Advance shipping' OR [Delivery Status] ='Shipping on time' then [Order Id] END)/ COUNTD ([Order Id])
+ 
  3.Profit Margin = sum ([Order Profit Per Order])/ SUM ([Sales per customer])
+ 
  4.Late Delivery rate = sum ([Late Delivery Flag])/ COUNT ([Order Id])
+ 
  5.Fraud Loss = if [Order Status] ="SUSPECTED_FRAUD" then 1 else 0 END
  
 Business Questions
 1.Which geographical regions generates the highest sales volume versus those yielding higher net profit margins?
+
 2.Which Product Categories yield the highest sales per customer and how does product volume correlate with profitability?
+
 3.How does Late delivery rate fluctuate month over month alongside fraud loss across specific customer segments?
+
 4. What is the total monetary loss attributed to payment fraud and which global market contributes to most fraud loss?
+
 5.Which shipping mode exhibits the highest late delivery rate across different geographical regions?
+
 6.How significance is the variance between scheduled shipping days and actual transit days across different fulfillment channels?
+
 7.How does fraud loss distribute across different shipping modes when broken down by customer segments?
 
  
@@ -57,7 +67,7 @@ dataco-supplychain-analytics/
 
 * Jupyter Notebook (EDA & Modeling): (https://colab.research.google.com/drive/1l7t-f3j1nLmvZ5P4uGey6zN4iK8ENRon?usp=sharing)
 * Original Dataset (Kaggle): (https://www.kaggle.co)
-* 
+* Tableau Dashboard link: https://github.com/ag6156484-create/data_co-supplychain-analytics/blob/main/dashboards/supply%20chain%20and%20Logistic%20Management%20Tableau%20project.twbx
 
 
 
