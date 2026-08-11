@@ -49,19 +49,19 @@ dataco-supplychain-analytics/
 │   ├── dashboard2.png                        # Risk & Fraud Analytics Screenshot
 │   └── dashboard3.png                        # Logistics Efficiency Screenshot
 └ ── README.md
+```
 
---
 
-## 🔗 Project Links
+ 🔗 Project Links
 
-* *Tableau Public Interactive Dashboard:* [View Live Dashboards](https://public.tableau.com)
-* *Jupyter Notebook (EDA & Modeling):* [View Python Notebook](https://colab.research.google.com)
-* *Original Dataset (Kaggle):* [DataCo Supply Chain Dataset](https://www.kaggle.com)
-* *Developer Profile:* [LinkedIn Profile](https://linkedin.com)
 
----
+* Jupyter Notebook (EDA & Modeling):* [View Python Notebook](https://colab.research.google.com)
+* Original Dataset (Kaggle):* [DataCo Supply Chain Dataset](https://www.kaggle.com)
+* Developer Profile:* [LinkedIn Profile](https://linkedin.com)
 
-## 🔑 Key Findings
+
+
+ 🔑 Key Findings
 
 | Metric | Value |
 | :--- | :--- |
@@ -75,9 +75,9 @@ dataco-supplychain-analytics/
 | *Highest Fraud Exposure Region* | United States ($112.47K) |
 | *On Time Delivery Rate* | 40.83% |
 
----
 
-## 📊 Findings of EDA
+
+📊 Findings of EDA
 
 1. Created summary statistics showing the mean days for real shipping is around 3 days with only 1 standard deviation.
 2. Applied data cleaning steps to check for missing values, duplicate values, and outliers in sales distribution.
@@ -90,29 +90,29 @@ dataco-supplychain-analytics/
 9. Sales per customer, total sales, and order item total show a strong positive correlation with each other.
 10. High discounts negatively impact profitability, driving transactions into negative profit margins.
 
----
 
-## 📈 Dashboard Report and Insights
 
-### 1. Executive Overview & Sales Performance Dashboard
+ 📈 Dashboard Report and Insights
+
+ 1. Executive Overview & Sales Performance Dashboard
 * *High-Margin Drivers:* Product categories like *Fishing, **Cleats, and **Camping & Hiking* drive high-margin contributions.
 * *Profit Yield:* Moderate-volume categories maintain healthy profit spans, while heavy discounts sporadically reduce yield.
 
-### 2. Supply Chain Risk & Fraud Analytics Dashboard
+ 2. Supply Chain Risk & Fraud Analytics Dashboard
 * *Fraud Exposure:* The *United States* accounts for the highest financial loss exposure from fraudulent activities (*$112.47K), alongside **Indonesia* and *Canada*.
 * *Regional Losses:* *France ($58.21K)* and *Mexico ($46.12K)* show notable fraud concentration requiring payment gateway validation.
 * *Late Delivery Risk:* Several categories face high late delivery rates despite strong profit margins, posing a potential risk to customer retention.
 
-### 3. Logistics & Fulfillment Efficiency Dashboard
+ 3. Logistics & Fulfillment Efficiency Dashboard
 * *Standard Class:* Accounts for the highest total volume of late shipments (~59k orders), functioning as the primary supply chain bottleneck.
 * *Second Class:* Records moderate delay volume (~19k orders).
 * *First Class & Same Day:* Exhibit higher SLA compliance rates but require routing optimization during peak seasons.
 * *Order Status vs. Shipping Mode:* Evaluates delay proportions across carriers to isolate carrier-specific operational deficiencies versus warehouse dispatch delays.
 * *Geographic Corridor SLA Analysis:* Tracks origin-to-destination transit delays to pinpoint regional transit hubs needing warehouse re-allocation.
 
----
 
-## 💡 Executive Strategic Recommendations
+
+ 💡 Executive Strategic Recommendations
 
 * *Inventory Prioritization:* Focus fulfillment resources on top-margin categories to protect core revenue streams from delivery delays.
 * *Discount Threshold Control:* Cap promotional discounts strictly under $50, as higher discounts (>$100) trigger severe negative profit margins.
