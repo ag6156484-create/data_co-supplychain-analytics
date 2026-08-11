@@ -50,31 +50,34 @@ dataco-supplychain-analytics/
 │   └── dashboard3.png                        # Logistics Efficiency Screenshot
 └ ── README.md
 
-🔗 Project Links
+
+## 🔗 Project Links
 
  📊 *Tableau Public Interactive Dashboard:* [View Live Dashboards](dashboards/supply chain and Logistic Management Tableau project.twbx) (Aapka Tableau Public Link)
  📓 *Jupyter Notebook (EDA & Modeling):* [View Python Notebook](https://colab.research.google.com/drive/1l7t-f3j1nLmvZ5P4uGey6zN4iK8ENRon?usp=sharing)
  💾 *Original Dataset (Kaggle):* [DataCo Supply Chain Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data)
  💼 *Developer Profile:* [LinkedIn Profile](https://linkedin.com/in/)
 
-🔑 Key Findings
+
+## 🔑 Key Findings
 | Metric | Value |
 | :--- | :--- |
-| *Total Shipment Analysed* | 180,519 |
-| *Total Sales Volume* | $36.78M |
-| *Overall Late Delivery Rate* | 54.83% |
-| *Total Fraud Loss* | $825.93K |
-| *Average Profit Margin* | 12.00% |
-| *Highest Sales Region* | Europe ($10.87M / 29.56%) |
-| *Worst Fulfillment Mode* | Standard Class |
-| *Highest Fraud Exposure Region* | United States ($112.47K) |
-| *On Time Delivery Rate* | 40.83% |
+| Total Shipment Analysed* | 180,519 |
+| Total Sales Volume* | $36.78M |
+| Overall Late Delivery Rate* | 54.83% |
+| Total Fraud Loss* | $825.93K |
+| Average Profit Margin* | 12.00% |
+| Highest Sales Region* | Europe ($10.87M / 29.56%) |
+| Worst Fulfillment Mode* | Standard Class |
+| Highest Fraud Exposure Region* | United States ($112.47K) |
+| On Time Delivery Rate* | 40.83% |
 
-Findings of EDA:
-1.Created a summary statistics showing the Mean days for real shipping is around 3 days with only one standard deviation and max days goes to 6 days sometime which we should reduce by identifying regions and delay reason . Avg Sales per customer is around 180 while it has very high deviation of 100 while some sales goes up to 1900 shows high value customers. while looking at avg discount it is 20 but the highest value is 500 which could be problematic for our profit . profit per order shows high fluctuations with range of 100 - 900 which means some orders are giving very high profit while some orders are giving us medium profit.
-2.Apply data cleaning step to check any missing values, to handle duplicate values and to check for outliers in the sales distribution by creating a histogram. Majority transactions concentrated in the range of 0 to 250. but some multiple outliers are present at 300+ which represents premium customer segment of our supply chain.
+
+## Findings of EDA:
+1. Created a summary statistics showing the Mean days for real shipping is around 3 days with only one standard deviation and max days goes to 6 days sometime which we should reduce by identifying regions and delay reason . Avg Sales per customer is around 180 while it has very high deviation of 100 while some sales goes up to 1900 shows high value customers. while looking at avg discount it is 20 but the highest value is 500 which could be problematic for our profit . profit per order shows high fluctuations with range of 100 - 900 which means some orders are giving very high profit while some orders are giving us medium profit.
+2. Apply data cleaning step to check any missing values, to handle duplicate values and to check for outliers in the sales distribution by creating a histogram. Majority transactions concentrated in the range of 0 to 250. but some multiple outliers are present at 300+ which represents premium customer segment of our supply chain.
 3. Actual shipping duration follows a normal distribution centered around 3 days (ranging between 0 and 6 days)
-4.In payment preferences column, High value order volumes are primarily driven through electronic payment modes (DEBIT and TRASFER)
+4. In payment preferences column, High value order volumes are primarily driven through electronic payment modes (DEBIT and TRASFER)
 5. A significant proportion of orders fall under the LATE_DELIVERY category, highlighting fulfilment
 bottleneck within specific shipping routes and transit schedules.
 6. order volume tracking shows high concentration in COMPLETE and PENDING_PAYMENT states.
@@ -82,9 +85,10 @@ bottleneck within specific shipping routes and transit schedules.
 8.Most of our business revenue around half of revenue comes from consumer segment while corporate is our second largest segment with smaller contribution from Homeoffice segment.
 9. Our growing markets are Europe and LATAM in terms of product demand while PACIFIC_ASIA is third largest growing market.
 10. sales per customer, sales, order item total shows nearly perfect positive correlation with each other indicates that overall revenue drives from order items. Days for shipping real shows medium relationship with days for shipping scheduled means there is possibility of delivery delay. sales per customer and order item discount relationship shows that with increase in discount sales got affected.
-11. As discount shows negative impact in profit in this data most of high discount transactions falls in the negative profit region which means giving discount reduce company profit so we should adapt new factor to increase sales
+11. As discount shows negative impact in profit in this data most of high discount transactions falls in the negative profit region which means giving discount reduce company profit so we should adapt new factor to increase sales.
 
-Dashboard Report and Insights:
+
+## Dashboard Report and Insights:
 1.Executive Overview & Sales Performance Dashboard:
 # Category like Fishing, Cleats, and Camping & Hiking drive high-margin contributions.
 Moderate-volume categories maintain healthy profit spans, while heavy discounts sporadically reduce yield.
@@ -104,7 +108,8 @@ Evaluates delay proportions across carriers to isolate carrier-specific operatio
 Geographic Corridor SLA Analysis:
 Tracks origin-to-destination transit delays to pinpoint regional transit hubs needing warehouse re-allocation.
 
-💡 Executive Strategic Recommendations
+## 💡 Executive Strategic Recommendations:
+
 Inventory prioritization:
 focus fulfillment resources on top margin category to protect core revenue streams from delivery delays.
 Discount Threshold Control:
