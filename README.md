@@ -19,7 +19,7 @@ End-to-End Supply Chain Analytics Using Python(EDA) and interactive Tableau Dash
 Executive Summary
  This repository contains end to end data processing, data hygiene checks, Exploratory data analysis (EDA) conducted on the DataCoSupply Chain dataset using Python (pandas, NumPy, matplotlib, and seaborn) with Tableau for executive level interactive dashboarding. The primary goal is to evaluate financial health, identify operational supply chain bottlenecks, assess delivery fulfillment delays, and mitigate global fraud risk exposure.
 
-KPI's & Calculated Fields:
+📊 KPI's & Calculated Fields
  
  1.Total Fraud loss: if [Fraud Loss] = 1 then [Sales] else 0 end
  
@@ -31,7 +31,8 @@ KPI's & Calculated Fields:
  
  5.Fraud Loss = if [Order Status] ="SUSPECTED_FRAUD" then 1 else 0 END
  
-Business Questions
+🎯Business Questions
+
 1.Which geographical regions generates the highest sales volume versus those yielding higher net profit margins?
 
 2.Which Product Categories yield the highest sales per customer and how does product volume correlate with profitability?
